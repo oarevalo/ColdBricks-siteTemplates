@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page access="general" owner="default">
+	<title>
+		Catharchic Epyphany
+	</title>
+	<skin id="default" />
+	<layout>
+		<location id="h_location_header_2" name="header1" type="header" />
+		<location id="h_location_column_1" name="column1" type="column" />
+		<location id="h_location_column_3" name="column2" type="column" class="column_right"  />
+	</layout>
+	<eventListeners />
+	<modules>
+		<module CONTAINER="false" resourceID="Site---Header" id="contentBox1" location="header1" name="contentBox/contentBox" title="contentBox1" />
+		<module CONTAINER="false" id="blog1" location="column1" name="Blog/blog" title="blog1" url="" />
+		<module CONTAINER="false" id="FlickrFeed1" location="column2" 
+				name="flickrFeed/flickrFeed" onClickGotoFlickr="true" 
+				showheader="false" tags="colors" title="FlickrFeed1" maxItems="10" />
+		<module container="false" id="login1" location="column2" name="login/login" title="Account Login" />
+	</modules>
+</Page>

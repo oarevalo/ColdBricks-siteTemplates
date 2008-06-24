@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page owner="default">
+	<title>Start</title>
+	<skin id="default" />
+	<!-- Define Screen Layout -->
+	<layout>
+		<location class="column" name="left" type="column"/>
+		<location class="column" name="middle" type="column"/>
+		<location class="column" name="right" type="column"/>
+	</layout>
+
+	<!-- Define Modules -->
+	<modules>
+		<module id="FlickrFeed1" location="left" 
+				name="flickrFeed/flickrFeed" onClickGotoFlickr="true" 
+				showheader="false" tags="colors" title="FlickrFeed1" maxItems="10" />
+		<module id="rssReader1" location="middle" name="RSSReader/RSSReader"
+				rss="http://feeds.feedburner.com/Techcrunch" title="TechCrunch"
+				displayMode="short" maxItems="10" />
+		<module id="rssReader2" location="right" name="RSSReader/RSSReader"
+				 rss="http://digg.com/rss/index.xml" title="Digg"
+				displayMode="short"  maxItems="10" />	
+	</modules>
+	<eventListeners>
+	</eventListeners>
+	
+</Page>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<title>My Start Page</title>
+	<pages>
+		<page default="true" href="default.xml" title="Home"/>
+	</pages>
+</site>

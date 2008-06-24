@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page owner="default">
+	<title>Default Page</title>
+
+	<!-- Define Screen Layout -->
+	<layout>
+		<location class="leftcolumn" name="left" type="column"/>
+		<location class="middlecolumn" name="middle" type="column"/>
+		<location class="rightcolumn" name="right" type="column"/>
+	</layout>
+
+	<!-- Define Modules -->
+	<modules>
+	</modules>
+	<eventListeners>
+	</eventListeners>
+	
+</Page>
