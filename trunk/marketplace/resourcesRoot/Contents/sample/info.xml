@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resLib type="content">
+	<resource href="Contents/sample/links.htm" id="links" />
+	<resource href="Contents/sample/loremIpsum.htm" id="loremIpsum" />
+	<resource href="Contents/sample/mainNav.htm" id="mainNav" />
+	<resource href="Contents/sample/menu.htm" id="menu" />
+	<resource href="Contents/sample/sampleTags.htm" id="sampleTags" />
+	<resource href="Contents/sample/sidebarMenu.htm" id="sidebarMenu" />
+	<resource href="Contents/sample/smallNav.htm" id="smallNav" />
+	<resource href="Contents/sample/sponsors.htm" id="sponsors" />
+	<resource href="Contents/sample/supportStyleshout.htm" id="supportStyleshout" />
+	<resource href="Contents/sample/templateInfo.htm" id="templateInfo" />
+	<resource href="Contents/sample/wiseWords.htm" id="wiseWords" />
+</resLib>

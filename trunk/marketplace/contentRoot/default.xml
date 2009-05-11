@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page siteTitle="marketplace"
+		byLine="put your site slogan here..."
+		copyright="Your Company"
+		copyrightYear="2009">
+			
+	<pageTemplate>three-column</pageTemplate>
+			
+	<title>Marketplace 1.0 by Styleshout</title>
+
+	<skin id="marketplace"/>
+
+	<layout>
+		<location name="smallNav" type="smallNav" />
+		<location name="mainNav" type="mainNav" />
+		<location name="leftColumn" type="leftColumn" />
+		<location name="rightColumn" type="rightColumn" />
+		<location name="mainColumn" type="mainColumn" />
+	</layout>
+
+	<meta name="Description" content="Information architecture, Web Design, Web Standards." />
+	<meta name="Keywords" content="your, keywords" />
+	<meta name="Distribution" content="Global" />
+	<meta name="Author" content="Erwin Aligam - ealigam@gmail.com" />
+	<meta name="Robots" content="index,follow" />
+
+	<modules>
+		<content id="smallNav" resourceID="smallNav" location="smallNav" title="" moduleTemplate="moduleNoContainer" />
+		<content id="mainNav" resourceID="mainNav" location="mainNav" title="" moduleTemplate="moduleNoContainer" />
+
+		<content id="menu" resourceID="menu" location="leftColumn" title="Sidebar Menu" />
+		<content id="links" resourceID="links" location="leftColumn" title="Links" />
+		<content id="sponsors" resourceID="sponsors" location="leftColumn" title="Sponsors" />
+		<content id="wiseWords" resourceID="wiseWords" location="leftColumn" title="Wise Words" />
+
+		<content id="templateInfo" resourceID="templateInfo" location="mainColumn" title="Template Info" />
+		<content id="sampleTags" resourceID="sampleTags" location="mainColumn" title="Sample Tags" />
+
+		<content id="supportStyleshout" resourceID="supportStyleshout" location="rightColumn" title="Support Styleshout" />
+		<content id="loremIpsum" resourceID="loremIpsum" location="rightColumn" title="Header Text" />
+	</modules>
+</Page>
