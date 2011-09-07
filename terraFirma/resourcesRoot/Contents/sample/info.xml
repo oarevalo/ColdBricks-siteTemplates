@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resLib type="content"><resource HREF="Contents/sample/dummy.htm" id="dummy"><description>sample content</description></resource><resource HREF="Contents/sample/welcome.txt" id="welcome"><description>welcome text</description></resource><resource HREF="Contents/sample/shortabout.htm" id="shortabout"><description>short blurb about the site</description></resource></resLib>

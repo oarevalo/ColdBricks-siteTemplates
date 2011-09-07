@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+	<title>Hello!</title>
+	<skin id="silver" /> 
+	<layout>
+		<location class="header" name="header" type="header" />
+		<location class="leftcolumn" name="left" type="column" />
+		<location class="maincolumn" name="middle" type="column" />
+		<location class="rightcolumn" name="right" type="column" />
+		<location class="footer" name="footer" type="footer" />
+	</layout>
+	<modules>
+		<content id="welcome" resourceID="default_welcome" location="middle" title="Welcome!" />
+	</modules>
+</Page>

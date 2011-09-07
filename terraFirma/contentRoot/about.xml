@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+	<title>About</title>
+	<layout>
+		<location id="h_location_MENU_1" name="MENU1" type="MENU" />
+		<location id="h_location_MAIN_2" name="MAIN1" type="MAIN" />
+		<location id="h_location_SIDE_3" name="SIDE1" type="SIDE" />
+	</layout>
+	<eventListeners />
+	<body>
+		<nav id="navMenu1" location="MENU1" moduleTemplate="moduleNoContainer" pages="default|Home,news|News,about|About" />
+		<content container="false" id="content3" location="MAIN1"
+			moduleTemplate="primaryContent" resourceID="shortabout" title="About This Site" />
+	</body>
+	<pageTemplate>website</pageTemplate>
+</Page>

@@ -1,0 +1,31 @@
+/* Main body selector */
+body { 
+	font-family: "Trebuchet MS", verdana, arial, sans-serif; 
+	font-size: .8em; 
+}
+
+/* Default module container selectors */
+.Section { }
+.SectionTitle { font-size:1em; }
+.SectionBody { }
+
+/* Page layout regions */
+#h_location_header_1 { margin-bottom:20px; }
+#h_location_column_2 { }
+#h_location_column_3 { }
+#h_location_column_4 { }
+#h_location_footer_5 { }
+.header {  }
+.leftcolumn { width:200px; }
+.maincolumn { }
+.rightcolumn { width:200px; border-left:1px solid silver; }
+.footer { }
+
+/* Page modules selectors */
+#welcome { }
+#content1 { margin-bottom:50px; margin-top:30px; }
+
+#h_main {
+	width:800px;
+	margin:0 auto;
+}

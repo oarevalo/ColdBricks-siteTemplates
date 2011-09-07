@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+    <title>
+        ColdBricks - Sample Site - Home
+    </title>
+    <skin id="default" />
+    <layout>
+        <location class="header" id="h_location_header_1" name="header" type="header"/>
+		<location class="maincolumn" id="h_location_column_3" name="middle" type="column"/>
+		<location class="rightcolumn" id="h_location_column_4" name="right" type="column"/>
+		<location class="footer" id="h_location_footer_5" name="footer" type="footer"/>
+    </layout><eventListeners/>
+    <body>
+        <content container="false" id="content1" location="header" moduleTemplate="moduleNoContainer" resourceID="site_header" title="content1"/>
+		<navMenu bgcolor="#000" container="false" fontcolor="#fff" id="navMenu1" location="header" moduleTemplate="moduleNoContainer" title="navMenu1" pages="default|Home,aboutUs|About Us,services|Our Services" />
+		<content container="false" id="welcome" location="middle" moduleTemplate="moduleNoContainer" resourceID="default_welcome" title="Welcome!"/>
+		<rss container="false" id="rss1" location="right" maxitems="5" moduleTemplate="module" rssurl="http://rss.cnn.com/rss/cnn_world.rss" title="On The News"/>
+		<content container="false" id="content4" location="footer" moduleTemplate="moduleNoContainer" resourceID="site_footer" title="content4"/>
+    </body>
+</Page>

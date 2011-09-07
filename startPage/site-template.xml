@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- site-template.xml
+
+This is a sample site template descriptor file.
+Site Templates are blueprints for HomePortals-based applications
+that ColdBricks uses to create new applications.
+-->
+
+<template>
+	<title>Start Page</title>
+	<description>
+		StartPage is a sample application that shows a simple personalized homepage built on HomePortals. 
+		The start page screen can be customized by adding or removing interactive widgets.
+	</description>
+	
+</template>
+	

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+	<title>Welcome</title>
+	<layout>
+		<location id="h_location_MENU_1" name="MENU1" type="MENU" />
+		<location id="h_location_MAIN_2" name="MAIN1" type="MAIN" />
+		<location id="h_location_SIDE_3" name="SIDE1" type="SIDE" />
+	</layout>
+	<eventListeners />
+	<body>
+		<content container="false" id="content4" location="MAIN1"
+			moduleTemplate="primaryContent" resourceID="welcome" title="Welcome!" />
+		<content container="false" id="content1" location="MAIN1"
+			moduleTemplate="primaryContent" resourceID="dummy" title="content1" />
+		<rss container="false" id="rss1" location="SIDE1" maxitems="5"
+			moduleTemplate="secondaryContent" rssurl="http://feeds.theonion.com/theonion/daily"
+			showRSSTitle="false" title="The Daily Onion" />
+		<nav id="navMenu1"
+			location="MENU1" moduleTemplate="moduleNoContainer" pages="default|Home,news|News,about|About" />
+		<content container="false" id="content3" location="SIDE1"
+			moduleTemplate="secondaryContent" resourceID="shortabout" title="About This Site" />
+	</body>
+	<pageTemplate>website</pageTemplate>
+</Page>

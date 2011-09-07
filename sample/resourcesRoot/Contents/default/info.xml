@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resLib type="content">
+	<resource HREF="Contents/default/site_header.htm" id="site_header">
+		<description>Global site header</description>
+	</resource>
+	<resource HREF="Contents/default/site_footer.htm" id="site_footer">
+		<description>Global site footer</description>
+	</resource>
+	<resource HREF="Contents/default/welcome.html" id="default_welcome" />
+	<resource HREF="Contents/default/loremIpsum.html" id="default_content" />
+</resLib>

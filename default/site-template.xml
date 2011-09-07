@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- site-template.xml
+
+This is a sample site template descriptor file.
+Site Templates are blueprints for HomePortals-based applications
+that ColdBricks uses to create new applications.
+-->
+
+<template>
+	
+	<description>
+		This template provides a basic structure to build personalized portals using ColdBricks. 
+		Sites created using this template already include the 'Accounts' and 'Modules' plugins.
+	</description>
+	
+</template>
+	

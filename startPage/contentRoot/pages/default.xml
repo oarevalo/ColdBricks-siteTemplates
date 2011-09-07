@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+	<title>Home</title>
+	<layout>
+		<location class="column third" name="left" type="column"/>
+		<location class="column twoThirds " name="right" type="column"/>
+	</layout>
+	<body>
+		<content title="Welcome!" 
+				 location="left"
+				 resourceID="welcome"
+				 id="welcome_blurb" />
+				 
+		<form title="Register" 
+				location="right"
+				elements="Username,password|Password,Password2|password,Email"
+				submitLabel="Register!"
+				action="includes/controlPanelGateway.cfm?method=doRegister&amp;_pageHREF=default" />
+				
+		<view title="Members"
+				location="right"
+				href="includes/members.cfm" />
+	</body>
+</Page>

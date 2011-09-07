@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resLib type="image">
+	<resource HREF="Images/default/garden1.jpg" id="garden1">
+		<property name="label" />
+		<property name="url" />
+	</resource>
+	<resource HREF="Images/default/house1.jpg" id="house1">
+		<property name="label"></property>
+		<property name="url"></property>
+	</resource>
+</resLib>
